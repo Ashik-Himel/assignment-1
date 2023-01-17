@@ -142,7 +142,23 @@ section {
     margin-bottom: 0.5rem;
 }
 
+/* Develope Section */
+.develope-section {
+    background: url(images/shape-1.png) no-repeat 120px center;
+    background-size: 200px;
+}
+
 /* Community Section */
+.community-section {
+    background: url(images/shape-1.png) no-repeat 90% bottom;
+    background-size: 200px;
+}
+
+/* Application Section */
+.application-section {
+    background: url(images/shape-3.png) no-repeat 200px 80px, url(images/shape-3.png) no-repeat 200px 450px, url(images/shape-3.png) no-repeat 450px 220px;
+    background-size: 200px, 150px, 150px;
+}
 .application-section .flex img {
     height: 500px;
     width: auto !important;
@@ -158,6 +174,8 @@ section {
     text-align: center;
 }
 .footer-section h2 {
+    font-family: var(--footer-title-font);
+    letter-spacing: 2px;
     color: white;
     margin-bottom: 0.5rem;
 }
@@ -165,6 +183,7 @@ section {
     color: var(--btn-color);
 }
 .footer-section p {
+    color: var(--footer-color);
     margin-bottom: 0;
 }
 
@@ -184,6 +203,12 @@ section {
     }
     .hero-section .flex {
         flex-direction: column-reverse;
+    }
+    .develope-section {
+        background-position: 80px 100px;
+    }
+    .community-section {
+        background-position: 90% 260px;
     }
     .community-section .flex {
         flex-direction: column-reverse;
